@@ -1,7 +1,7 @@
-const user = {
+/*const user = {
     name: "jay",
     age: 21,
-}
+}*/
 class Rectangle {
     constructor(width, height, color){
         this.width = width;
@@ -18,5 +18,7 @@ class Rectangle {
 }
 
 const rect = new Rectangle(2,4)
+console.log(rect.width);
+console.log(rect.height);
 const area = rect.area();
 console.log(area);
