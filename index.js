@@ -13,12 +13,13 @@ class Rectangle {
         return area;
     }
     paint(){
-        console.log('painting with color ${this.color}');
+        console.log('painting with color ' + this.color);
     }
 }
 
-const rect = new Rectangle(2,4)
+const rect = new Rectangle(2,4, "red");
 console.log(rect.width);
 console.log(rect.height);
 const area = rect.area();
+rect.paint();
 console.log(area);
