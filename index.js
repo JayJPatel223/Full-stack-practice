@@ -12,7 +12,7 @@ class Rectangle {
         const area = this.width * this.height;
         return area;
     }
-    point(){
+    paint(){
         console.log('painting with color ${this.color}');
     }
 }
